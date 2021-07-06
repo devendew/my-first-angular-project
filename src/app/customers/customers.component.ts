@@ -14,8 +14,7 @@ export class CustomersComponent implements OnInit {
     isVisible = true
 
     constructor() {
-      // this.title = "";
-      // this.people = []
+
     }
 
     changeVisibility(){

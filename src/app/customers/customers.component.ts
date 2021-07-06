@@ -1,4 +1,3 @@
-import { NONE_TYPE } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,12 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CustomersComponent implements OnInit {
 
-    title: string="";
-    people: any="";
+    title: string = "";
+    people: any[] =[];
     
     constructor() {
       // this.title = "";
-      // this.people = NULL_EXPR
+      // this.people = []
     }
     
     ngOnInit() {

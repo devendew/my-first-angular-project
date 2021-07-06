@@ -11,10 +11,15 @@ export class CustomersComponent implements OnInit {
 
     title: string = "";
     people: ICustomer[] =[];
+    isVisible = true
 
     constructor() {
       // this.title = "";
       // this.people = []
+    }
+
+    changeVisibility(){
+      this.isVisible = !this.isVisible
     }
 
     ngOnInit() {

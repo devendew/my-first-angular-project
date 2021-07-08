@@ -34,4 +34,8 @@ export class CustomersListComponent implements OnInit {
       })
     }
 
+    sort(prop:string){
+      // A sorting service
+    }
+
 }
